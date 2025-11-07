@@ -2,6 +2,7 @@ import pygame
 import constants as CONST
 from circleshape import CircleShape
 import random
+from logger import log_event
 
 
 class Asteroid(CircleShape):
@@ -15,6 +16,7 @@ class Asteroid(CircleShape):
         self.position += self.velocity * dt
 
     def split(self):
+        log_event("asteroid_split")
         self.kill()
         if self.radius <= CONST.ASTEROID_MIN_RADIUS:
             return
