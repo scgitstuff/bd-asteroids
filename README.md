@@ -1,7 +1,6 @@
 # "Asteroids" project
 
-- https://www.boot.dev/
-- https://github.com/scGetStuff/bd-asteroids
+- https://www.boot.dev/lessons/5be3e3bd-efb5-4664-a9e9-7111be783271
 
 # to run
 
